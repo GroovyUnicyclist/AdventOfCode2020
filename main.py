@@ -1,8 +1,8 @@
 import datetime
-from day4 import Day4
+from day5 import Day5
 
 def main():
-    day = Day4("input4.txt")
+    day = Day5("input5.txt")
     print(f'Day {datetime.datetime.now().day}:')
     print(f'Part One: {day.part_one()}')
     print(f'Part Two: {day.part_two()}')
